@@ -1,0 +1,29 @@
+/* Este es el div */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+}
+
+/* Este es el contenedor */
+.cont {
+  padding-bottom: 80px;
+  background: linear-gradient(180deg, #ffb70084, #e8080022 60%);
+  min-width: 100vw;
+}
+
+.card {
+  border: greenyellow solid;
+  border-radius: 900px;
+  padding-left: 0px;
+}
+
+.grilla {
+  display: flex;
+}
+
+.grilla-cont {
+  justify-content: space-evenly;
+  gap: 10px;
+}
